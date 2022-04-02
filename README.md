@@ -38,8 +38,8 @@ Launch the container:
 docker run \
     --rm \
     --name iredmail \
-    --env-file iredmail-docker.conf \
-    --hostname mail.mydomain.com \
+    --env-file lesgrandsvoisins-mail.conf \
+    --hostname mail.lesgrandsvoisins.com \
     -p 80:80 \
     -p 443:443 \
     -p 110:110 \

@@ -8,7 +8,8 @@
 #
 
 PWD="$(pwd)"
-CONF="${PWD}/iredmail-docker.conf"
+# CONF="${PWD}/iredmail-docker.conf"
+CONF="${PWD}/lesgrndsvoisinscom-mail.conf"
 DATA_DIR="${PWD}/data"
 
 if [[ ! -e ${CONF} ]]; then
