@@ -19,5 +19,5 @@ fi
 [[ -f ${df} ]] || (echo "Docker file ${df} doesnt exist." && exit 255)
 
 docker build \
-    --tag ${label}:nightly \
+    --tag ${label}:stable \
     -f ${df} .
